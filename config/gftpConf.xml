@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<streamConfig>
+    <protocol>GFTP</protocol>
+    <host>http://localhost</host>
+    <username>client</username>
+    <fileRequest>/usr/local/lib/tomcat/webapps/axis/publishFiles/content.txt</fileRequest>
+    <password>pwd</password>
+    <loggLevel>ALL</loggLevel>
+    <port>2811</port>
+    <maxBufferSize>131072</maxBufferSize>
+    <ecnryptData>false</ecnryptData>
+    <authenticate>true</authenticate>
+    <saveLogs>false</saveLogs>
+</streamConfig>
