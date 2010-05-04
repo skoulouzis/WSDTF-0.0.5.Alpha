@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<streamConfig>
+    <protocol>TCP</protocol>
+    <host>192.168.1.13</host>
+    <username>client</username>
+    <path>/home/alogo/workspace/AIDA/Indexer/datadir/dp1LSAintro.pdf</path>
+    <password>pwd</password>
+    <loggLevel>OFF</loggLevel>
+    <port>8199</port>
+<!--     <maxBufferSize>65536</maxBufferSize> -->
+    <maxBufferSize>131072</maxBufferSize>
+<!--     <maxBufferSize>262144</maxBufferSize> -->
+<!--     <maxBufferSize>524288</maxBufferSize> -->
+<!--     <maxBufferSize>1048576</maxBufferSize> -->
+<!--     <maxBufferSize>2097152</maxBufferSize> -->
+<!--     <maxBufferSize>4194304</maxBufferSize> -->
+<!--     <maxBufferSize>8388608</maxBufferSize> -->
+    <ecnryptData>false</ecnryptData>
+    <authenticate>false</authenticate>
+    <liveData>true</liveData>
+    <displaySpeed>true</displaySpeed>
+    <saveLogs>false</saveLogs>
+</streamConfig>
